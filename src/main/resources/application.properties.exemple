@@ -1,0 +1,15 @@
+spring.application.name=helpDeskBackEnd
+server.port=8081
+
+spring.datasource.url=jdbc:mysql://URLDoBanco/NomeDoBanco?createDatabaseIfNotExist=true
+spring.datasource.username=TeuNome
+spring.datasource.password=TuaSenha
+
+
+#ADM inicial para teste
+spring.security.user.name=admin
+spring.security.user.password={noop}123456
+
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
